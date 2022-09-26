@@ -14,9 +14,11 @@ function App() {
         <b>SIGN UP</b>
 
         </div>
-        <input className="inputs" />
-        <input className="inputs" />
-        <input className="inputs" />
+        <input placeholder='Enter Fullname' className="inputs" />
+        <input placeholder='Enter Email' className="inputs" />
+        <input placeholder='Enter Phone' className="inputs" />
+        <input placeholder='Enter Password' className="inputs" /> <br/>
+        <input type="button" value='Signup' className="inputs-btn" />
       </div>
     </div>
   );
