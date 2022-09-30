@@ -18,8 +18,11 @@ function App() {
         <input placeholder='Enter Email' className="inputs" />
         <input placeholder='Enter Phone' className="inputs" />
         <input placeholder='Enter Password' className="inputs" /> <br/>
-        <input type="button" value='Signup' className="inputs-btn" />
+        <input type="button" value='Signup' className="inputs-btn" /> <br/>
+      <span style={{cursor:"pointer"}}>OR Login</span>
+      <br/><br/>
       </div>
+
     </div>
   );
 }
